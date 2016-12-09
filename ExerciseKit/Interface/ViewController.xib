@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExerciseStepViewController" customModule="ExerciseKit" customModuleProvider="target">
+            <connections>
+                <outlet property="responseView" destination="K9k-3c-TNF" id="Ugl-9B-C0i"/>
+                <outlet property="stimulusView" destination="DvL-IS-NId" id="8Zc-0I-Cs2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DvL-IS-NId" customClass="StimulusView" customModule="ExerciseKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9k-3c-TNF" customClass="ResponseView" customModule="ExerciseKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DvL-IS-NId" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4CO-5T-QOk"/>
+                <constraint firstItem="K9k-3c-TNF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Nv-5b-pkZ"/>
+                <constraint firstItem="K9k-3c-TNF" firstAttribute="top" secondItem="DvL-IS-NId" secondAttribute="bottom" id="Kku-oZ-nIB"/>
+                <constraint firstAttribute="trailing" secondItem="DvL-IS-NId" secondAttribute="trailing" id="Lu6-RM-hyR"/>
+                <constraint firstItem="K9k-3c-TNF" firstAttribute="height" secondItem="DvL-IS-NId" secondAttribute="height" id="MFk-mr-NYH"/>
+                <constraint firstAttribute="trailing" secondItem="K9k-3c-TNF" secondAttribute="trailing" id="QUr-xC-gvb"/>
+                <constraint firstAttribute="bottom" secondItem="K9k-3c-TNF" secondAttribute="bottom" id="gwP-Vm-twg"/>
+                <constraint firstItem="K9k-3c-TNF" firstAttribute="top" secondItem="DvL-IS-NId" secondAttribute="bottom" id="p38-iG-GqC"/>
+                <constraint firstItem="DvL-IS-NId" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uf2-N7-xeN"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

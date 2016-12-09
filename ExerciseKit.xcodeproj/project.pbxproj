@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A214F8F11DFA465B0074481B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F8F01DFA465B0074481B /* AppDelegate.swift */; };
-		A214F8F31DFA465B0074481B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F8F21DFA465B0074481B /* ViewController.swift */; };
 		A214F8F61DFA465B0074481B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214F8F41DFA465B0074481B /* Main.storyboard */; };
 		A214F8F91DFA465B0074481B /* ExerciseKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A214F8F71DFA465B0074481B /* ExerciseKit.xcdatamodeld */; };
 		A214F8FB1DFA465B0074481B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A214F8FA1DFA465B0074481B /* Assets.xcassets */; };
 		A214F8FE1DFA465B0074481B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214F8FC1DFA465B0074481B /* LaunchScreen.storyboard */; };
 		A214F9091DFA465B0074481B /* ExerciseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9081DFA465B0074481B /* ExerciseKitTests.swift */; };
 		A214F9141DFA465B0074481B /* ExerciseKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9131DFA465B0074481B /* ExerciseKitUITests.swift */; };
+		A214F9221DFA47A70074481B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9211DFA47A70074481B /* Exercise.swift */; };
+		A214F9251DFA50340074481B /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9241DFA50340074481B /* ExerciseViewController.swift */; };
+		A214F9281DFA564E0074481B /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9271DFA564E0074481B /* StepViewController.swift */; };
+		A214F92A1DFA56D00074481B /* ExerciseStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9291DFA56D00074481B /* ExerciseStepViewController.swift */; };
+		A214F92E1DFA58570074481B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214F92C1DFA58570074481B /* ViewController.xib */; };
+		A214F9301DFA59590074481B /* StimulusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F92F1DFA59590074481B /* StimulusView.swift */; };
+		A214F9321DFA598C0074481B /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9311DFA598C0074481B /* ResponseView.swift */; };
+		A214F9341DFA5A770074481B /* TextStimulusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9331DFA5A770074481B /* TextStimulusView.swift */; };
+		A214F9361DFA5A910074481B /* TextStimulusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214F9351DFA5A910074481B /* TextStimulusView.xib */; };
+		A214F9381DFA5B820074481B /* ImageStimulusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9371DFA5B820074481B /* ImageStimulusView.swift */; };
+		A214F93A1DFA5B9E0074481B /* ImageStimulusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214F9391DFA5B9E0074481B /* ImageStimulusView.xib */; };
+		A214F93E1DFA5C3D0074481B /* ImageCollectionStimulusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F93D1DFA5C3D0074481B /* ImageCollectionStimulusView.swift */; };
+		A214F9401DFA5C490074481B /* ImageCollectionStimulusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214F93F1DFA5C490074481B /* ImageCollectionStimulusView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,6 @@
 /* Begin PBXFileReference section */
 		A214F8ED1DFA465B0074481B /* ExerciseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A214F8F01DFA465B0074481B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A214F8F21DFA465B0074481B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A214F8F51DFA465B0074481B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A214F8F81DFA465B0074481B /* ExerciseKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExerciseKit.xcdatamodel; sourceTree = "<group>"; };
 		A214F8FA1DFA465B0074481B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,19 @@
 		A214F90F1DFA465B0074481B /* ExerciseKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A214F9131DFA465B0074481B /* ExerciseKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseKitUITests.swift; sourceTree = "<group>"; };
 		A214F9151DFA465B0074481B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A214F9211DFA47A70074481B /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = Model/Exercise.swift; sourceTree = "<group>"; };
+		A214F9241DFA50340074481B /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewController.swift; path = Controllers/ExerciseViewController.swift; sourceTree = "<group>"; };
+		A214F9271DFA564E0074481B /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StepViewController.swift; path = Controllers/StepViewController.swift; sourceTree = "<group>"; };
+		A214F9291DFA56D00074481B /* ExerciseStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseStepViewController.swift; path = Controllers/ExerciseStepViewController.swift; sourceTree = "<group>"; };
+		A214F92C1DFA58570074481B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = Interface/ViewController.xib; sourceTree = "<group>"; };
+		A214F92F1DFA59590074481B /* StimulusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StimulusView.swift; path = Interface/StimulusView.swift; sourceTree = "<group>"; };
+		A214F9311DFA598C0074481B /* ResponseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseView.swift; path = Interface/ResponseView.swift; sourceTree = "<group>"; };
+		A214F9331DFA5A770074481B /* TextStimulusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStimulusView.swift; path = Interface/TextStimulusView.swift; sourceTree = "<group>"; };
+		A214F9351DFA5A910074481B /* TextStimulusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TextStimulusView.xib; path = Interface/TextStimulusView.xib; sourceTree = "<group>"; };
+		A214F9371DFA5B820074481B /* ImageStimulusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageStimulusView.swift; path = Interface/ImageStimulusView.swift; sourceTree = "<group>"; };
+		A214F9391DFA5B9E0074481B /* ImageStimulusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageStimulusView.xib; path = Interface/ImageStimulusView.xib; sourceTree = "<group>"; };
+		A214F93D1DFA5C3D0074481B /* ImageCollectionStimulusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionStimulusView.swift; path = Interface/ImageCollectionStimulusView.swift; sourceTree = "<group>"; };
+		A214F93F1DFA5C490074481B /* ImageCollectionStimulusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageCollectionStimulusView.xib; path = Interface/ImageCollectionStimulusView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				A214F8F01DFA465B0074481B /* AppDelegate.swift */,
-				A214F8F21DFA465B0074481B /* ViewController.swift */,
 				A214F8F41DFA465B0074481B /* Main.storyboard */,
+				A214F9261DFA51930074481B /* Controllers */,
+				A214F9231DFA4F7E0074481B /* Exercise Model */,
 				A214F8FA1DFA465B0074481B /* Assets.xcassets */,
 				A214F8FC1DFA465B0074481B /* LaunchScreen.storyboard */,
 				A214F8FF1DFA465B0074481B /* Info.plist */,
@@ -126,6 +151,57 @@
 				A214F9151DFA465B0074481B /* Info.plist */,
 			);
 			path = ExerciseKitUITests;
+			sourceTree = "<group>";
+		};
+		A214F9231DFA4F7E0074481B /* Exercise Model */ = {
+			isa = PBXGroup;
+			children = (
+				A214F9211DFA47A70074481B /* Exercise.swift */,
+			);
+			name = "Exercise Model";
+			sourceTree = "<group>";
+		};
+		A214F9261DFA51930074481B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A214F9241DFA50340074481B /* ExerciseViewController.swift */,
+				A214F9291DFA56D00074481B /* ExerciseStepViewController.swift */,
+				A214F92F1DFA59590074481B /* StimulusView.swift */,
+				A214F9311DFA598C0074481B /* ResponseView.swift */,
+				A214F92C1DFA58570074481B /* ViewController.xib */,
+				A214F9271DFA564E0074481B /* StepViewController.swift */,
+				A214F9411DFA5C520074481B /* ImageCollectionStimulus */,
+				A214F93C1DFA5BE30074481B /* TextStimulus */,
+				A214F93B1DFA5BDB0074481B /* ImageStimulus */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A214F93B1DFA5BDB0074481B /* ImageStimulus */ = {
+			isa = PBXGroup;
+			children = (
+				A214F9371DFA5B820074481B /* ImageStimulusView.swift */,
+				A214F9391DFA5B9E0074481B /* ImageStimulusView.xib */,
+			);
+			name = ImageStimulus;
+			sourceTree = "<group>";
+		};
+		A214F93C1DFA5BE30074481B /* TextStimulus */ = {
+			isa = PBXGroup;
+			children = (
+				A214F9331DFA5A770074481B /* TextStimulusView.swift */,
+				A214F9351DFA5A910074481B /* TextStimulusView.xib */,
+			);
+			name = TextStimulus;
+			sourceTree = "<group>";
+		};
+		A214F9411DFA5C520074481B /* ImageCollectionStimulus */ = {
+			isa = PBXGroup;
+			children = (
+				A214F93D1DFA5C3D0074481B /* ImageCollectionStimulusView.swift */,
+				A214F93F1DFA5C490074481B /* ImageCollectionStimulusView.xib */,
+			);
+			name = ImageCollectionStimulus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A214F93A1DFA5B9E0074481B /* ImageStimulusView.xib in Resources */,
 				A214F8FE1DFA465B0074481B /* LaunchScreen.storyboard in Resources */,
+				A214F9361DFA5A910074481B /* TextStimulusView.xib in Resources */,
 				A214F8FB1DFA465B0074481B /* Assets.xcassets in Resources */,
+				A214F92E1DFA58570074481B /* ViewController.xib in Resources */,
+				A214F9401DFA5C490074481B /* ImageCollectionStimulusView.xib in Resources */,
 				A214F8F61DFA465B0074481B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A214F8F31DFA465B0074481B /* ViewController.swift in Sources */,
 				A214F8F91DFA465B0074481B /* ExerciseKit.xcdatamodeld in Sources */,
 				A214F8F11DFA465B0074481B /* AppDelegate.swift in Sources */,
+				A214F92A1DFA56D00074481B /* ExerciseStepViewController.swift in Sources */,
+				A214F9281DFA564E0074481B /* StepViewController.swift in Sources */,
+				A214F93E1DFA5C3D0074481B /* ImageCollectionStimulusView.swift in Sources */,
+				A214F9301DFA59590074481B /* StimulusView.swift in Sources */,
+				A214F9341DFA5A770074481B /* TextStimulusView.swift in Sources */,
+				A214F9251DFA50340074481B /* ExerciseViewController.swift in Sources */,
+				A214F9221DFA47A70074481B /* Exercise.swift in Sources */,
+				A214F9381DFA5B820074481B /* ImageStimulusView.swift in Sources */,
+				A214F9321DFA598C0074481B /* ResponseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
