@@ -18,7 +18,7 @@
 		A214F9251DFA50340074481B /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9241DFA50340074481B /* ExerciseViewController.swift */; };
 		A214F9281DFA564E0074481B /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9271DFA564E0074481B /* StepViewController.swift */; };
 		A214F92A1DFA56D00074481B /* ExerciseStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9291DFA56D00074481B /* ExerciseStepViewController.swift */; };
-		A214F92E1DFA58570074481B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214F92C1DFA58570074481B /* ViewController.xib */; };
+		A214F92E1DFA58570074481B /* ExerciseStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214F92C1DFA58570074481B /* ExerciseStepViewController.xib */; };
 		A214F9301DFA59590074481B /* StimulusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F92F1DFA59590074481B /* StimulusView.swift */; };
 		A214F9321DFA598C0074481B /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9311DFA598C0074481B /* ResponseView.swift */; };
 		A214F9341DFA5A770074481B /* TextStimulusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F9331DFA5A770074481B /* TextStimulusView.swift */; };
@@ -64,7 +64,7 @@
 		A214F9241DFA50340074481B /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewController.swift; path = Controllers/ExerciseViewController.swift; sourceTree = "<group>"; };
 		A214F9271DFA564E0074481B /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StepViewController.swift; path = Controllers/StepViewController.swift; sourceTree = "<group>"; };
 		A214F9291DFA56D00074481B /* ExerciseStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseStepViewController.swift; path = Controllers/ExerciseStepViewController.swift; sourceTree = "<group>"; };
-		A214F92C1DFA58570074481B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = Interface/ViewController.xib; sourceTree = "<group>"; };
+		A214F92C1DFA58570074481B /* ExerciseStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExerciseStepViewController.xib; path = Interface/ExerciseStepViewController.xib; sourceTree = "<group>"; };
 		A214F92F1DFA59590074481B /* StimulusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StimulusView.swift; path = Interface/StimulusView.swift; sourceTree = "<group>"; };
 		A214F9311DFA598C0074481B /* ResponseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseView.swift; path = Interface/ResponseView.swift; sourceTree = "<group>"; };
 		A214F9331DFA5A770074481B /* TextStimulusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStimulusView.swift; path = Interface/TextStimulusView.swift; sourceTree = "<group>"; };
@@ -125,6 +125,7 @@
 			children = (
 				A214F8F01DFA465B0074481B /* AppDelegate.swift */,
 				A214F8F41DFA465B0074481B /* Main.storyboard */,
+				A214F9421DFA61B90074481B /* Views */,
 				A214F9261DFA51930074481B /* Controllers */,
 				A214F9231DFA4F7E0074481B /* Exercise Model */,
 				A214F8FA1DFA465B0074481B /* Assets.xcassets */,
@@ -168,11 +169,8 @@
 				A214F9291DFA56D00074481B /* ExerciseStepViewController.swift */,
 				A214F92F1DFA59590074481B /* StimulusView.swift */,
 				A214F9311DFA598C0074481B /* ResponseView.swift */,
-				A214F92C1DFA58570074481B /* ViewController.xib */,
+				A214F92C1DFA58570074481B /* ExerciseStepViewController.xib */,
 				A214F9271DFA564E0074481B /* StepViewController.swift */,
-				A214F9411DFA5C520074481B /* ImageCollectionStimulus */,
-				A214F93C1DFA5BE30074481B /* TextStimulus */,
-				A214F93B1DFA5BDB0074481B /* ImageStimulus */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -202,6 +200,16 @@
 				A214F93F1DFA5C490074481B /* ImageCollectionStimulusView.xib */,
 			);
 			name = ImageCollectionStimulus;
+			sourceTree = "<group>";
+		};
+		A214F9421DFA61B90074481B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A214F9411DFA5C520074481B /* ImageCollectionStimulus */,
+				A214F93C1DFA5BE30074481B /* TextStimulus */,
+				A214F93B1DFA5BDB0074481B /* ImageStimulus */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +326,7 @@
 				A214F8FE1DFA465B0074481B /* LaunchScreen.storyboard in Resources */,
 				A214F9361DFA5A910074481B /* TextStimulusView.xib in Resources */,
 				A214F8FB1DFA465B0074481B /* Assets.xcassets in Resources */,
-				A214F92E1DFA58570074481B /* ViewController.xib in Resources */,
+				A214F92E1DFA58570074481B /* ExerciseStepViewController.xib in Resources */,
 				A214F9401DFA5C490074481B /* ImageCollectionStimulusView.xib in Resources */,
 				A214F8F61DFA465B0074481B /* Main.storyboard in Resources */,
 			);
